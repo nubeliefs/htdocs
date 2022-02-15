@@ -41,7 +41,7 @@ session_start();
 
     <?php include 'menu.php';?>
 
-    <!--Actual page content retrives here!-->
+    <!--Actual page content retrives heres!-->
     <div class="thumbnail">
         <div ng-view></div>
     </div>
