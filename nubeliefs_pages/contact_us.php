@@ -63,7 +63,7 @@
     <?php
       session_start();
 
-      // Echo session variables that were set on previous page
+      // Echo session variables that were set on previous pages
      
       if (strcmp($_SESSION["Result"], "SUCCESS") !== 0) {
        
