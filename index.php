@@ -52,15 +52,12 @@ if(isset($_POST['submit'])){
   $comments = $_POST['comments'];
   $insertquery = "insert into contact_form (Name, Email, Comments) VALUES ('$name','$email','$comments')";
   $res = mysqli_query($con,$insertquery);
-  echo $res;
-
   
  if ($res) {
 
 // Set session variables
 $_SESSION["Result"] = "SUCCESS";
 
-echo "true";
 
   }
   else{

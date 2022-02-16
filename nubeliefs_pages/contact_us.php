@@ -67,13 +67,23 @@ session_start();
 
       // Echo session variables that were set on previous pages
      
-      if (strcmp($_SESSION["Result"], "SUCCESS") !== 0) {
-       
-    }
-    else {
+      if (strcmp($_SESSION["Result"], "SUCCESS") == 0) {
+
         echo '<div class="alert alert-success" role="alert">
         Your details have been saved successfully!
       </div>';
+       
+    }
+    else if(strcmp($_SESSION["Result"], "DEFAULT") == 0) {
+        echo '<div class="alert alert-primary" role="alert">
+        Please fill your details now!
+      </div>';
+    }
+    else{
+      echo '<div class="alert alert-danger" role="alert">
+      There was an error while saving your details, please try again later.
+    </div>';
+
     }
 
     ?>
