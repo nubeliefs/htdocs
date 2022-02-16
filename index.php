@@ -13,20 +13,9 @@ session_start();
 <body onload="myFunction()">
 
     <!--placeholder on page load-->
-    <div id="loading" class="d-flex flex-wrap align-content-center">
-
-        <div class="flex-grow-1 ms-3">
-            <p class="placeholder-glow">
-                <span class="placeholder col-6"></span>
-            </p>
-            <p class="placeholder-wave">
-                <span class="placeholder w-75"></span>
-            </p>
-            <p class="placeholder-glow">
-                <span class="placeholder" style="width: 25%;"></span>
-            </p>
-
-        </div>
+    <div id="loading" class="d-flex align-items-center">
+    <strong>Loading...</strong>
+    <div class="spinner-border ml-auto" role="status" aria-hidden="true"></div>
     </div>
 
     <!--Header area-->

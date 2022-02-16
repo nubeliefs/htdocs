@@ -27,7 +27,7 @@
 
             <div class="collapse navbar-collapse justify-content-end align-items-center text-center" id="navbarCollapse">
 
-                <ul class="navbar-nav bd-navbar-nav" id="menu">
+                <ul class="navbar-nav bd-navbar-nav lead" id="menu">
                     <li class="nav-item">
                         <a class="nav-link" href="#!contact_us">Contact</a>
                     </li>
