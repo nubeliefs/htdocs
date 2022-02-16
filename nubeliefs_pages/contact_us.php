@@ -1,4 +1,6 @@
-
+<?php
+session_start();
+?>
 <body>
 
   <div class="container-fluid" id="space">
@@ -61,7 +63,7 @@
         <!-- Insert message-->
 
     <?php
-      session_start();
+      
 
       // Echo session variables that were set on previous pages
      
