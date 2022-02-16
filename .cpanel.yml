@@ -3,3 +3,5 @@ deployment:
   tasks:
     - export DEPLOYPATH=/home1/nubeldem/public_html/
     - /bin/cp * $DEPLOYPATH
+    - /bin/cp/nubeliefs_pages * $DEPLOYPATH
+    - /bin/cp/nubeliefs_files * $DEPLOYPATH
