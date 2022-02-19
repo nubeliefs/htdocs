@@ -1,6 +1,6 @@
 <!--Navigation panel-->
 
-    <nav class="navbar navbar-light navbar-expand-sm sticky-top" id="stickynav">
+    <nav class="navbar navbar-light navbar-expand-sm sticky-top shadow-sm" id="stickynav">
         <div class="container-fluid">
 
             <ul class="navbar-nav bd-navbar-nav align-items-center justify-content-start">

@@ -20,7 +20,7 @@ session_start();
 
     <!--Header area-->
 
-    <div class="jumbotron text-center" id="jumbotron">
+    <div class="jumbotron text-center rounded-0" id="jumbotron">
         <i class="fab fa-canadian-maple-leaf fa-4x"></i>
         <br>
         <h1>Non-Universal Beliefs</h1>
