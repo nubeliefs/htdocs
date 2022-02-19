@@ -25,6 +25,9 @@ session_start();
         <br>
         <h1>Non-Universal Beliefs</h1>
         <p class="lead">Follow your imagination!</span> </p>
+        
+
+<br>
     </div>
 
 
