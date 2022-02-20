@@ -4,12 +4,14 @@
 
         <div class="row">
             <div class="col-sm-2">
+
+           
                 
             </div>
 
             <div class="col-sm-8">
                 <p></p>
-                <p></p>
+                
                 <h1 class="display-2">Dear visitors,</h1>
                 <p class="lead text-justify">
                     Coming to an end? Just think again.
@@ -17,6 +19,12 @@
                     Welcome to non universal beliefs.
                 </p>
                 <br>
+
+                <h1 class="display-6">What is non universal beliefs?</h1>
+                <p class="lead text-justify text-dark">
+                    <?php include 'main_text.txt';?>
+                </p>
+
                 <h1 class="display-6">What is non universal beliefs?</h1>
                 <p class="lead text-justify">
                     <?php include 'main_text.txt';?>
